@@ -18,6 +18,7 @@ The application uses the `pg` package to connect to PostgreSQL and execute SQL q
 
 ## Project Structure
 
+```text
 COMP3005-Assignment/
 ├── app/
 │   ├── db.js
@@ -28,6 +29,7 @@ COMP3005-Assignment/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
 ## Database Setup
 
