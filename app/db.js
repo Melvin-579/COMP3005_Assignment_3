@@ -9,5 +9,16 @@ const pool = new Pool({
     port: 5432
 });
 
+// Test the database connection
+pool.connect((error, client, release) => {
+    if (error) {
+        console.log("Failed to connect to PostgreSQL!");
+        console.log(error.message);
+    } else {
+        console.log("Successfully connected to PostgreSQL!");
+        release();
+    }
+});
+
 // Export the pool so other files can use it
 module.exports = pool;
