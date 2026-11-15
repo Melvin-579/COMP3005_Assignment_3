@@ -112,12 +112,12 @@ await getAllStudents();
 
 To insert a student:
 ```javascript
-await addStudent("Michael", "Scott", "michael.scott@example.com", "2024-01-10");
+await addStudent("Jensen", "Huang", "notceo.ai@nvidia.com", "2026-11-12");
 ```
 
 To update a student's email:
 ```javascript
-await updateStudentEmail(4, "mscott@dundermifflin.com");
+await updateStudentEmail(4, "bubbleburst@honeypot.com");
 ```
 
 To delete a student:
