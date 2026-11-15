@@ -70,7 +70,7 @@ For Windows Command Prompt:
 set "DB_PASSWORD=YOUR_POSTGRES_PASSWORD"
 ```
 
-Replace `YOUR_POSTGRES_PASSWORD` with your local PostgreSQL password. Do not commit passwords to GitHub.
+Replace `YOUR_POSTGRES_PASSWORD` with your local PostgreSQL password.
 
 **4. Run the application**
 
