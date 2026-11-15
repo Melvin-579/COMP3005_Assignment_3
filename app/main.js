@@ -98,10 +98,10 @@ async function main() {
     await getAllStudents();
 
     // CREATE: Add a new student
-    // addStudent("Jensen", "Huang", "notceo.ai@nvidia.com", "2026-11-12");
+    // await addStudent("Jensen", "Huang", "notceo.ai@nvidia.com", "2026-11-12");
 
     // UPDATE: Change a student's email
-    // updateStudentEmail(4, "bubbleburst@honeypot.com");
+    // await updateStudentEmail(4, "bubbleburst@honeypot.com");
 
     // DELETE: Remove a student
     // await deleteStudent(4);

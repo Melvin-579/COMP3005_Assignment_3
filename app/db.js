@@ -9,7 +9,7 @@ const pool = new Pool({
     port: 5432
 });
 
-// Test the database connection
+// Always check the database connection
 pool.connect((error, client, release) => {
     if (error) {
         console.log("Failed to connect to PostgreSQL!");
